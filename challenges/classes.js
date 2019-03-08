@@ -6,6 +6,7 @@
 
 // Stretch Task: Extend the base class CuboidMaker with a sub class called CubeMaker.  Find out the formulas for volume and surface area for cubes and create those methods using the dimension properties from CuboidMaker.  Test your work by logging out your volume and surface area.
 
+
 class Cuboid {
     constructor(props) {
         this.height = props.height;
@@ -48,3 +49,4 @@ const maker = new CubeMaker({
 
 maker.surface(5,8,4, "square inches");
 maker.volume(5,8,4, "square inches");
+
